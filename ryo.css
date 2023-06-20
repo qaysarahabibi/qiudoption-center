@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400&family=Epilogue:wght@300;400;500;600;700&family=Spectral:ital@1&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'border-box';
+    font-family: 'Epilogue', 'sans-serif';
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link{
+    color: #7663b5;
+    font-family: 'epilogue';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.nav-link::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #b1a6d6;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    transition: 0.5s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.wrapper{
+    margin: 30px auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 40px 2px #c3ceeb;
+}
+
+.feature-boxs{
+    padding: 65px;
+}
+
+.feature-boxs h1{
+    margin-top: 10%;
+    color: #393636;
+    font-weight: 700;
+}
+
+span{
+    color: #68599c;
+}
+
+.feature-boxs p{
+    margin: 20px auto;
+    color: #555;
+}
+
+.feature-boxs a{
+    text-decoration: none !important;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: 2px solid #50447a !important;
+    color:#50447a;
+}
+
+.btn-Two:hover{
+    background-color: #50447a !important;
+    color: #fff !important;
+}
+
+.feature-img{
+    width: 70%;
+    padding: 20px;
+    margin-left: 100px;  
+}
+
+.wave-img{
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 44%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/*about*/
+#about-us{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #DEE3FF;
+}
+
+.about-title{
+    text-align: center;
+    font-family: be vietnam pro;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 15%;
+    color: #4a416d;
+}
+
+.about-img{
+    width: 60%;
+    margin-left: 200px;
+}
+
+.btn-One{
+    text-decoration: none !important;
+    background-color: #50447a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 2px solid #50447a !important;
+    color: #fff;
+    margin-left: 270px;
+}
+
+.btn-One:hover{
+    background-color: #fff;
+    color: #50447a;
+}
+
+.featuree-box{
+    background-color: #fff;
+    width: 680px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 20px 2px #8b7ac9;
+}
+
+#animal{
+    padding: 80px 0;
+    background-color: #DEE3FF;
+}
+
+.animal-img{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.animal{
+    padding: 20px;
+}
+
+.friends{
+    margin-left: 90px;
+}
+
+
+h4{
+    color: #564984;
+    margin-top: 20px;
+    font-family: 'epilogue';
+    font-weight: 600;
+}
+
+h1{
+    font-weight: 600;
+    color: #6f5fa7;
+}
+
+
+.woy{
+    color: #50447a;
+}
+
+.title::before{ 
+    content: '';
+    background-color: #68599c;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{ 
+    content: '';
+    background-color: #68599c;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.feature-box{
+    background-color: #fff;
+    width: 280px;
+    height: 340px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 20px 2px #8b7ac9;
+}
+
+.feature-box:hover{
+    background-color: #c2b3f3;
+    color: #fff;
+}
+
+.btn-wan{
+    text-decoration: none !important;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #50447a !important;
+    color: #50447a;
+}
+
+.btn-wan:hover{
+    background-color: #50447a !important;
+    color: #fff !important;
+}
+
+/*medsos*/
+
+#medsos{
+    background-color: #fff ;
+    padding: 100px 0;
+}
+
+#medsos p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #6f5fa7;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*footer*/
+
+.foot{
+    background-image: linear-gradient(to right, #adbcff, #adbcff);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 10px;
+    margin-top: 0;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/*feedback*/
+#feedback{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #DEE3FF;
+}
+
+.feed-text{
+    padding-bottom: 30px;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.cards-wrapper{
+    column-gap: 15px;
+}
+
+.feed-btn:hover{
+    color: #50447a;
+    background-color: #fff;
+}
+
+.feed-btn{
+    background-color: #50447a;
+    color: #fff;
+}
